@@ -1,0 +1,57 @@
+body{
+		margin: 0;
+		padding: 0;
+	}
+	ul,li{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	.caozuo{
+		float: left;
+		width: 350px;
+		background: #0D0D29;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		margin: 0;
+		background: url(../image/1.jpg);
+	}
+	.caozuo ul{
+		margin-top: 30px;
+	}
+	.caozuo ul li{
+		width: 150px;
+		padding: 10px;
+		text-align: center;
+		background: #DC5C11;
+		margin-bottom: 30px;
+		position: relative;
+		left: 25%;
+		color: white;
+		font-size: 20px;
+	}
+	.box{
+		position: absolute;
+		left: 350px;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		float: left;
+		width: 1000px;
+		height: 630px;
+		background: url(../image/2.jpg);
+	}
+	.zi{
+		 position: absolute;
+         float: left;
+       	 width: 50px;
+       	 height: 50px;
+       	 /*border:1px solid;*/
+       	 background: yellow;
+       	 text-align: center;
+       	 line-height: 40px;
+       	 font-size: 25px;
+         border-radius: 50%;
+         color:white;
+	}
